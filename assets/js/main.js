@@ -1,6 +1,6 @@
 (function($) {
-  
-  "use strict";  
+
+  "use strict";
 
   $(window).on('load', function() {
 
@@ -18,7 +18,7 @@
         }
     });
 
-    // one page navigation 
+    // one page navigation
     $('.navbar-nav').onePageNav({
       currentClass: 'active'
     });
@@ -30,8 +30,8 @@
         allowParentLinks: true,
         duplicate: true,
         label: '',
-        closedSymbol: '<i class="lni-chevron-right"></i>',
-        openedSymbol: '<i class="lni-chevron-down"></i>',
+        closedSymbol: '>',
+        openedSymbol: '<',
       });
 
       /* WOW Scroll Spy
@@ -43,7 +43,7 @@
 
     wow.init();
 
-     /* Testimonials Carousel 
+     /* Testimonials Carousel
     ========================================================*/
     var owl = $("#testimonials");
       owl.owlCarousel({
@@ -74,7 +74,7 @@
                 items: 1
             }
         }
-      });  
+      });
 
      /*  Slick Slider
     ========================================================*/
@@ -103,7 +103,7 @@
         }
       ]
     });
-    
+
 
     /* Back Top Link active
     ========================================================*/
@@ -132,6 +132,6 @@
           e.preventDefault();
       });
 
-  });      
+  });
 
 }(jQuery));

@@ -782,15 +782,15 @@ hr {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.team-item .overlay-social-icon .social-icons li a:hover .lni-facebook-filled {
+.team-item .overlay-social-icon .social-icons li a:hover {
   background: #3B5998;
 }
 
-.team-item .overlay-social-icon .social-icons li a:hover .lni-twitter-filled {
+.team-item .overlay-social-icon .social-icons li a:hover {
   background: #00aced;
 }
 
-.team-item .overlay-social-icon .social-icons li a:hover .lni-instagram-filled {
+.team-item .overlay-social-icon .social-icons li a:hover {
   background: #fb3958;
 }
 
