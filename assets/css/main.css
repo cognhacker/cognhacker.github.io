@@ -1381,3 +1381,57 @@ textarea {
 #copyright p a:hover {
   color: #137ED9;
 }
+
+/* Home page: next FabLab opening, compact card under the navigation buttons. */
+.home-page #hero-area .fablab-opening {
+  max-width: 380px;
+  margin: 18px auto 0;
+  padding: 8px 14px;
+  border: 1px solid #137ED9;
+  border-radius: 10px;
+  background: #edf6ff;
+  color: #585b60;
+}
+
+.home-page #hero-area .fablab-opening p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.home-page #hero-area .fablab-opening .fablab-opening__label {
+  color: #1768ab;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.home-page #hero-area .fablab-opening .fablab-opening__date,
+.home-page #hero-area .fablab-opening .fablab-opening__hours {
+  display: inline;
+  color: #1768ab;
+  font-size: clamp(14px, 4vw, 16px);
+  font-weight: 700;
+}
+
+.home-page #hero-area .fablab-opening .fablab-opening__hours {
+  color: #585b60;
+  font-weight: 600;
+}
+
+.home-page #hero-area .fablab-opening .fablab-opening__hours::before {
+  content: "\00b7\00a0";
+}
+
+.home-page #hero-area .fablab-opening .fablab-opening__rule {
+  font-size: 11px;
+  color: #585b60;
+}
+
+.home-page #hero-area .fablab-opening--today {
+  border-color: #267348;
+  background: #eef8f1;
+}
+
+.home-page #hero-area .fablab-opening--today .fablab-opening__label,
+.home-page #hero-area .fablab-opening--today .fablab-opening__date {
+  color: #267348;
+}
